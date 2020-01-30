@@ -1,4 +1,4 @@
-const Lesson = require("../controllers/lessons.model.js");
+const Lesson = require("../controllers");
 
 // Create and Save a new Lesson
 exports.create = (req, res) => {
